@@ -1,0 +1,20 @@
+#acc {
+	list-style: none;
+}
+#acc h3 {
+	margin: 0px;
+	margin-top: 20px;
+	margin-left: -32px;
+	cursor: pointer;
+	font-size: 13px;
+}
+#acc .acc-section {
+	overflow: hidden;
+}
+#acc .acc-content {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 0px solid #9ac1c9;
+	border-top: none;
+	background: #fff
+}

@@ -1,0 +1,943 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>pay_list</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table>
+        <div class="row" style="overflow:auto;">
+		
+		<table width="100%" border="1">
+  <tbody><tr>
+    <td width="1%">&nbsp;</td>
+    <td colspan="8"> Employee Details</td>
+	
+	<td style="display:none">&nbsp;</td>
+    <td colspan="6">Allowance Details</td>
+    <td colspan="7">Deduction Details</td>
+    <td colspan="5"> Final Net Salary </td>
+	
+    </tr>
+	
+  <tr>
+    <td>#</td>
+    <td width="4%">Emp. Name</td>
+    <td width="4%">Emp. Code</td>
+    <td width="4%">Desig</td>
+	     <td width="4%">Acc No.</td>
+    <td width="4%">IFSC</td>
+    <td width="5%">Bank Name</td>
+    <td style="display:none" width="4%">CTC</td>
+    <td width="5%">Salary paid for</td>
+    <td width="4%">Basic Sal.</td>
+    <td width="5%">MED. Allow.</td>
+    <td width="5%">SPE. Allow.</td>
+    <td width="5%">HRA. Allow.</td>
+    <td width="5%">CA. Allow.</td>
+    <td width="5%">Expense</td>
+    <td width="4%">Earn Gross</td>
+    <td width="3%">TDS</td>
+    <td width="2%">PF</td>
+    <td width="2%">PT</td>
+    <td width="3%">ESI</td>
+    <td width="3%">Loan</td>
+    <td width="3%">Adv.</td>
+    <td width="3%">Ded</td>
+    <td width="4%">Bonus</td>
+    <td width="4%">Arr. Sal.</td>
+    <td width="6%">Net Sal.</td>
+    <td>Tot Salary Due</td>
+    <td>Paid Amount</td>
+		
+  </tr>
+  	
+  <tr>
+    <td>1</td>
+    <td>MUKESH KUMAR SINGH</td>
+    <td>SSPL-00016</td>
+    <td>SR. PROGRAMMER</td>
+	
+	 	
+    <td>`029201525594</td>
+    <td>ICIC0000292</td>
+    <td>ICICI  BANK....</td>
+	<td style="display:none"> 32155.00</td>
+    <td>30</td>
+    <td>6,261.00</td>
+    <td>1878.17</td>
+    <td>19407.80</td>
+    <td>2504.23</td>
+    <td>1252.12</td>
+    <td>0.00</td>
+    <td>31302.90</td>
+    <td>430.85</td>
+	<td>751.27</td>
+	<td>100.00</td>
+	<td>0.00</td>
+	<td>0</td>
+	<td>0.00</td>
+	<td>1282.12</td>
+	<td>0</td> 
+	<td>0.00</td>
+	<td>30,021.00</td>
+		
+	 
+						<td>
+						30,021.00						</td>
+						
+						 <td>
+						
+						 0.00						 
+						 </td>
+						 
+			
+	
+						 
+						 
+
+  </tr>
+ 	
+  <tr>
+    <td>2</td>
+    <td>DAVID DENIS LAKRA</td>
+    <td>SSPL-00019</td>
+    <td>SR. PROGRAMMER</td>
+	
+	 	
+    <td>`029201525602</td>
+    <td>ICIC0000292</td>
+    <td>ICICIBANK</td>
+	<td style="display:none"> 34377.00</td>
+    <td>30</td>
+    <td>6,694.00</td>
+    <td>2007.96</td>
+    <td>20748.92</td>
+    <td>2677.28</td>
+    <td>1338.64</td>
+    <td>0.00</td>
+    <td>33466.00</td>
+    <td>535.12</td>
+	<td>803.18</td>
+	<td>100.00</td>
+	<td>0.00</td>
+	<td>0</td>
+	<td>0.00</td>
+	<td>1438.3</td>
+	<td>0</td> 
+	<td>0.00</td>
+	<td>32,028.00</td>
+		
+	 
+						<td>
+						32,028.00						</td>
+						
+						 <td>
+						
+						 0.00						 
+						 </td>
+						 
+			
+	
+						 
+						 
+
+  </tr>
+ 	
+  <tr>
+    <td>3</td>
+    <td>KRISHNA KUMAR</td>
+    <td>SSPL-00018</td>
+    <td>SR. WEB DESIGNER</td>
+	
+	 	
+    <td>`252001500056</td>
+    <td>ICIC0002520</td>
+    <td>ICICIBANK</td>
+	<td style="display:none"> 26600.00</td>
+    <td>30</td>
+    <td>5,180.00</td>
+    <td>1553.71</td>
+    <td>16054.96</td>
+    <td>2071.61</td>
+    <td>1035.80</td>
+    <td>0.00</td>
+    <td>25895.10</td>
+    <td>170.18</td>
+	<td>621.48</td>
+	<td>100.00</td>
+	<td>0.00</td>
+	<td>0</td>
+	<td>0.00</td>
+	<td>891.66</td>
+	<td>0</td> 
+	<td>0.00</td>
+	<td>25,003.00</td>
+		
+	 
+						<td>
+						25,003.00						</td>
+						
+						 <td>
+						
+						 0.00						 
+						 </td>
+						 
+			
+	
+						 
+						 
+
+  </tr>
+ 	
+  <tr>
+    <td>4</td>
+    <td>UPENDRA KUMAR</td>
+    <td>SSPL-00024</td>
+    <td>SR. PROGRAMMER</td>
+	
+	 	
+    <td>`029201525593</td>
+    <td>ICIC0000292</td>
+    <td>ICICI BANK</td>
+	<td style="display:none"> 28822.00</td>
+    <td>30</td>
+    <td>5,612.00</td>
+    <td>1683.49</td>
+    <td>17396.08</td>
+    <td>2244.66</td>
+    <td>1122.33</td>
+    <td>0.00</td>
+    <td>28058.20</td>
+    <td>274.45</td>
+	<td>673.40</td>
+	<td>100.00</td>
+	<td>0.00</td>
+	<td>0</td>
+	<td>0.00</td>
+	<td>1047.85</td>
+	<td>0</td> 
+	<td>0.00</td>
+	<td>27,010.00</td>
+		
+	 
+						<td>
+						27,010.00						</td>
+						
+						 <td>
+						
+						 0.00						 
+						 </td>
+						 
+			
+	
+						 
+						 
+
+  </tr>
+ 	
+  <tr>
+    <td>5</td>
+    <td>PARAMJEET SINGH</td>
+    <td>SSPL-00054</td>
+    <td>NETWORK ADMINISTRATOR</td>
+	
+	 	
+    <td>`194701500154</td>
+    <td>ICIC0001947</td>
+    <td>ICICIBANK</td>
+	<td style="display:none"> 26600.00</td>
+    <td>30</td>
+    <td>5,180.00</td>
+    <td>1553.71</td>
+    <td>16054.96</td>
+    <td>2071.61</td>
+    <td>1035.80</td>
+    <td>0.00</td>
+    <td>25895.10</td>
+    <td>170.18</td>
+	<td>621.48</td>
+	<td>100.00</td>
+	<td>0.00</td>
+	<td>0</td>
+	<td>0.00</td>
+	<td>891.66</td>
+	<td>0</td> 
+	<td>0.00</td>
+	<td>25,003.00</td>
+		
+	 
+						<td>
+						25,003.00						</td>
+						
+						 <td>
+						
+						 0.00						 
+						 </td>
+						 
+			
+	
+						 
+						 
+
+  </tr>
+ 	
+  <tr>
+    <td>6</td>
+    <td>PANKAJ KUMAR SINHA</td>
+    <td>SSPL-00281</td>
+    <td>ASSISTANT NETWORK ADMINISTRATOR</td>
+	
+	 	
+    <td>`047401501260</td>
+    <td>ICIC0000474</td>
+    <td>ICICIBANK</td>
+	<td style="display:none"> 20000.00</td>
+    <td>30</td>
+    <td>3,722.00</td>
+    <td>0.00</td>
+    <td>12654.80</td>
+    <td>1488.80</td>
+    <td>744.40</td>
+    <td>0.00</td>
+    <td>18610.00</td>
+    <td>0.00</td>
+	<td>446.64</td>
+	<td>0.00</td>
+	<td>325.68</td>
+	<td>0</td>
+	<td>0.00</td>
+	<td>772.32</td>
+	<td>0</td> 
+	<td>0.00</td>
+	<td>17,838.00</td>
+		
+	 
+						<td>
+						17,838.00						</td>
+						
+						 <td>
+						
+						 0.00						 
+						 </td>
+						 
+			
+	
+						 
+						 
+
+  </tr>
+ 	
+  <tr>
+    <td>7</td>
+    <td>MD ALFAT HUSSAIN</td>
+    <td>SSPL-00349</td>
+    <td>SR. PROGRAMMER</td>
+	
+	 	
+    <td>`031730936957</td>
+    <td>SBIN0009013</td>
+    <td>SBI</td>
+	<td style="display:none"> 26600.00</td>
+    <td>30</td>
+    <td>5,180.00</td>
+    <td>1553.71</td>
+    <td>16054.96</td>
+    <td>2071.61</td>
+    <td>1035.80</td>
+    <td>0.00</td>
+    <td>25895.10</td>
+    <td>170.18</td>
+	<td>621.48</td>
+	<td>100.00</td>
+	<td>0.00</td>
+	<td>0</td>
+	<td>0.00</td>
+	<td>891.66</td>
+	<td>0</td> 
+	<td>0.00</td>
+	<td>25,003.00</td>
+		
+	 
+						<td>
+						25,003.00						</td>
+						
+						 <td>
+						
+						 0.00						 
+						 </td>
+						 
+			
+	
+						 
+						 
+
+  </tr>
+ 	
+  <tr>
+    <td>8</td>
+    <td>MANISH KUMAR SHARMA</td>
+    <td>SSPL-00371</td>
+    <td>SR. PROGRAMMER</td>
+	
+	 	
+    <td>`31095533299</td>
+    <td>SBIN0006546</td>
+    <td>SBI</td>
+	<td style="display:none"> 25488.00</td>
+    <td>30</td>
+    <td>4,963.00</td>
+    <td>1488.75</td>
+    <td>15383.78</td>
+    <td>1985.00</td>
+    <td>992.50</td>
+    <td>0.00</td>
+    <td>24812.54</td>
+    <td>123.14</td>
+	<td>595.50</td>
+	<td>0.00</td>
+	<td>0.00</td>
+	<td>0</td>
+	<td>0.00</td>
+	<td>718.64</td>
+	<td>0</td> 
+	<td>0.00</td>
+	<td>24,094.00</td>
+		
+	 
+						<td>
+						24,094.00						</td>
+						
+						 <td>
+						
+						 0.00						 
+						 </td>
+						 
+			
+	
+						 
+						 
+
+  </tr>
+ 	
+  <tr>
+    <td>9</td>
+    <td>Niranjan kumar bishwakarma</td>
+    <td>SSPL-00377</td>
+    <td>SR. PROGRAMMER</td>
+	
+	 	
+    <td>`32602202463</td>
+    <td>SBIN0001062</td>
+    <td>SBI</td>
+	<td style="display:none"> 23266.00</td>
+    <td>30</td>
+    <td>4,530.00</td>
+    <td>1358.97</td>
+    <td>14042.66</td>
+    <td>1811.96</td>
+    <td>905.98</td>
+    <td>0.00</td>
+    <td>22649.46</td>
+    <td>18.87</td>
+	<td>543.59</td>
+	<td>0.00</td>
+	<td>0.00</td>
+	<td>0</td>
+	<td>0.00</td>
+	<td>562.46</td>
+	<td>0</td> 
+	<td>0.00</td>
+	<td>22,087.00</td>
+		
+	 
+						<td>
+						22,087.00						</td>
+						
+						 <td>
+						
+						 0.00						 
+						 </td>
+						 
+			
+	
+						 
+						 
+
+  </tr>
+ 	
+  <tr>
+    <td>10</td>
+    <td>BRAJESH PRANJAL</td>
+    <td>SSPL-00506</td>
+    <td>PROGRAMME MANAGER</td>
+	
+	 	
+    <td>`20058434476</td>
+    <td>SBIN0001237</td>
+    <td>SBI</td>
+	<td style="display:none"> 55650.00</td>
+    <td>30</td>
+    <td>11,362.00</td>
+    <td>3408.53</td>
+    <td>32516.28</td>
+    <td>4544.71</td>
+    <td>2272.36</td>
+    <td>0.00</td>
+    <td>54103.66</td>
+    <td>2993.55</td>
+	<td>1363.41</td>
+	<td>150.00</td>
+	<td>0.00</td>
+	<td>0</td>
+	<td>0.00</td>
+	<td>4506.96</td>
+	<td>0</td> 
+	<td>0.00</td>
+	<td>49,597.00</td>
+		
+	 
+						<td>
+						49,597.00						</td>
+						
+						 <td>
+						
+						 0.00						 
+						 </td>
+						 
+			
+	
+						 
+						 
+
+  </tr>
+ 	
+  <tr>
+    <td>11</td>
+    <td>RANDHIR KUMAR SHARMA</td>
+    <td>SSPL-00526</td>
+    <td>PROGRAMMER</td>
+	
+	 	
+    <td>`177301502538</td>
+    <td>ICIC0001773</td>
+    <td>ICICI</td>
+	<td style="display:none"> 21600.00</td>
+    <td>30</td>
+    <td>4,206.00</td>
+    <td>1261.66</td>
+    <td>13037.11</td>
+    <td>1682.21</td>
+    <td>841.10</td>
+    <td>0.00</td>
+    <td>21027.60</td>
+    <td>0.00</td>
+	<td>504.66</td>
+	<td>0.00</td>
+	<td>0.00</td>
+	<td>0</td>
+	<td>0.00</td>
+	<td>504.66</td>
+	<td>0</td> 
+	<td>0.00</td>
+	<td>20,523.00</td>
+		
+	 
+						<td>
+						20,523.00						</td>
+						
+						 <td>
+						
+						 0.00						 
+						 </td>
+						 
+			
+	
+						 
+						 
+
+  </tr>
+ 	
+  <tr>
+    <td>12</td>
+    <td>DEEPTI SINGH</td>
+    <td>SSPL-00658</td>
+    <td>PROGRAMMER</td>
+	
+	 	
+    <td>`30201809077</td>
+    <td>SBIN0003466</td>
+    <td>SBI</td>
+	<td style="display:none"> 19505.00</td>
+    <td>30</td>
+    <td>3,630.00</td>
+    <td>0.00</td>
+    <td>12341.59</td>
+    <td>1451.95</td>
+    <td>725.98</td>
+    <td>0.00</td>
+    <td>18149.40</td>
+    <td>0.00</td>
+	<td>435.59</td>
+	<td>0.00</td>
+	<td>317.61</td>
+	<td>0</td>
+	<td>0.00</td>
+	<td>753.2</td>
+	<td>0</td> 
+	<td>0.00</td>
+	<td>17,396.00</td>
+		
+	 
+						<td>
+						17,396.00						</td>
+						
+						 <td>
+						
+						 0.00						 
+						 </td>
+						 
+			
+	
+						 
+						 
+
+  </tr>
+ 	
+  <tr>
+    <td>13</td>
+    <td>NITYANAND VERMA</td>
+    <td>SSPL-00844</td>
+    <td>PROGRAMMER</td>
+	
+	 	
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>N/A</td>
+	<td style="display:none"> 17379.00</td>
+    <td>30</td>
+    <td>3,235.00</td>
+    <td>0.00</td>
+    <td>10996.38</td>
+    <td>1293.69</td>
+    <td>646.85</td>
+    <td>0.00</td>
+    <td>16171.15</td>
+    <td>0.00</td>
+	<td>388.11</td>
+	<td>0.00</td>
+	<td>283.00</td>
+	<td>0</td>
+	<td>0.00</td>
+	<td>671.11</td>
+	<td>0</td> 
+	<td>0.00</td>
+	<td>15,500.00</td>
+		
+	 
+						<td>
+						15,500.00						</td>
+						
+						 <td>
+						
+						 0.00						 
+						 </td>
+						 
+			
+	
+						 
+						 
+
+  </tr>
+ 	
+  <tr>
+    <td>14</td>
+    <td>GAUTAM KUMAR</td>
+    <td>SSPL-00933</td>
+    <td>PROGRAMMER</td>
+	
+	 	
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>N/A</td>
+	<td style="display:none"> 16818.00</td>
+    <td>30</td>
+    <td>3,130.00</td>
+    <td>0.00</td>
+    <td>10641.42</td>
+    <td>1251.93</td>
+    <td>625.97</td>
+    <td>0.00</td>
+    <td>15649.15</td>
+    <td>0.00</td>
+	<td>375.58</td>
+	<td>0.00</td>
+	<td>273.86</td>
+	<td>0</td>
+	<td>0.00</td>
+	<td>649.44</td>
+	<td>0</td> 
+	<td>0.00</td>
+	<td>15,000.00</td>
+		
+	 
+						<td>
+						15,000.00						</td>
+						
+						 <td>
+						
+						 0.00						 
+						 </td>
+						 
+			
+	
+						 
+						 
+
+  </tr>
+ 	
+  <tr>
+    <td>15</td>
+    <td>DEBAPRATIM</td>
+    <td>SSPL-001189</td>
+    <td>PROGRAMMER</td>
+	
+	 	
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>N/A</td>
+	<td style="display:none"> 13455.00</td>
+    <td>30</td>
+    <td>2,504.00</td>
+    <td>0.00</td>
+    <td>8513.53</td>
+    <td>1001.59</td>
+    <td>500.80</td>
+    <td>0.00</td>
+    <td>12519.90</td>
+    <td>0.00</td>
+	<td>300.48</td>
+	<td>0.00</td>
+	<td>219.10</td>
+	<td>0</td>
+	<td>0.00</td>
+	<td>519.58</td>
+	<td>0</td> 
+	<td>0.00</td>
+	<td>12,000.00</td>
+		
+	 
+						<td>
+						12,000.00						</td>
+						
+						 <td>
+						
+						 0.00						 
+						 </td>
+						 
+			
+	
+						 
+						 
+
+  </tr>
+ 	
+  <tr>
+    <td>16</td>
+    <td>SANDEEP RAJ</td>
+    <td>SSPL-001332</td>
+    <td>TRAINEE PROGRAMMER</td>
+	
+	 	
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>N/A</td>
+	<td style="display:none"> 10720.00</td>
+    <td>30</td>
+    <td>1,800.00</td>
+    <td>0.00</td>
+    <td>7119.64</td>
+    <td>719.96</td>
+    <td>359.98</td>
+    <td>0.00</td>
+    <td>9999.47</td>
+    <td>0.00</td>
+	<td>215.99</td>
+	<td>0.00</td>
+	<td>174.99</td>
+	<td>0</td>
+	<td>0.00</td>
+	<td>390.98</td>
+	<td>0</td> 
+	<td>0.00</td>
+	<td>9,608.00</td>
+		
+	 
+						<td>
+						9,608.00						</td>
+						
+						 <td>
+						
+						 0.00						 
+						 </td>
+						 
+			
+	
+						 
+						 
+
+  </tr>
+ 	
+  <tr>
+    <td>17</td>
+    <td>POOJA TIWARI</td>
+    <td>SSPL-001448</td>
+    <td>TRAINEE PROGRAMMER</td>
+	
+	 	
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>N/A</td>
+	<td style="display:none"> 10720.00</td>
+    <td>30</td>
+    <td>1,800.00</td>
+    <td>0.00</td>
+    <td>7119.64</td>
+    <td>719.96</td>
+    <td>359.98</td>
+    <td>0.00</td>
+    <td>9999.47</td>
+    <td>0.00</td>
+	<td>215.99</td>
+	<td>0.00</td>
+	<td>174.99</td>
+	<td>0</td>
+	<td>0.00</td>
+	<td>390.98</td>
+	<td>0</td> 
+	<td>0.00</td>
+	<td>9,608.00</td>
+		
+	 
+						<td>
+						9,608.00						</td>
+						
+						 <td>
+						
+						 0.00						 
+						 </td>
+						 
+			
+	
+						 
+						 
+
+  </tr>
+ 	
+  <tr>
+    <td>18</td>
+    <td>SATISH KUMAR</td>
+    <td>SSPL-001450</td>
+    <td>TRAINEE PROGRAMMER</td>
+	
+	 	
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>N/A</td>
+	<td style="display:none"> 10720.00</td>
+    <td>30</td>
+    <td>1,800.00</td>
+    <td>0.00</td>
+    <td>7119.64</td>
+    <td>719.96</td>
+    <td>359.98</td>
+    <td>0.00</td>
+    <td>9999.47</td>
+    <td>0.00</td>
+	<td>215.99</td>
+	<td>0.00</td>
+	<td>174.99</td>
+	<td>0</td>
+	<td>0.00</td>
+	<td>390.98</td>
+	<td>0</td> 
+	<td>0.00</td>
+	<td>9,608.00</td>
+		
+	 
+						<td>
+						9,608.00						</td>
+						
+						 <td>
+						
+						 0.00						 
+						 </td>
+						 
+			
+	
+						 
+						 
+
+  </tr>
+ 	
+  <tr>
+    <td>19</td>
+    <td>MOHIT RAJ</td>
+    <td>SSPL-001461</td>
+    <td>TRAINEE PROGRAMMER</td>
+	
+	 	
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>N/A</td>
+	<td style="display:none"> 10720.00</td>
+    <td>30</td>
+    <td>1,800.00</td>
+    <td>0.00</td>
+    <td>7119.64</td>
+    <td>719.96</td>
+    <td>359.98</td>
+    <td>0.00</td>
+    <td>9999.47</td>
+    <td>0.00</td>
+	<td>215.99</td>
+	<td>0.00</td>
+	<td>174.99</td>
+	<td>0</td>
+	<td>0.00</td>
+	<td>390.98</td>
+	<td>0</td> 
+	<td>0.00</td>
+	<td>9,608.00</td>
+		
+	 
+						<td>
+						9,608.00						</td>
+						
+						 <td>
+						
+						 0.00						 
+						 </td>
+						 
+			
+	
+						 
+						 
+
+  </tr>
+ 	
+	
+	
+</tbody></table>
+
+      
+	   
+            <center>
+
+			 <input style="width:100px; margin:10px;" class="btn btn-success" name="btn_submit" id="btn_submit" value="Save" disabled="disabled" type="submit">
+	
+			<input value="Export To Excel" class="btn btn-primary" onclick="tableToExcel('panel_table_container', 'pay_list')" type="button">
+			 
+			  
+	      <input name="month" value="04" type="hidden">
+		<input name="year" value="2018" type="hidden">
+		<input name="gen_mstr_id" value="126" type="hidden">
+		<input name="dept_id" value="3" type="hidden">
+		
+		
+            </center>
+          
+  </div></table></body></html>

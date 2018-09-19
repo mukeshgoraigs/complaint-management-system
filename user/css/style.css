@@ -1,0 +1,68 @@
+.text-cont 
+{
+	font-family: Arial;
+	color: #1b1b1b;
+	font-size: 13px;
+	font-weight: normal;
+	width: 740px;
+	height: auto;
+	float: left;
+	border: #56c0e4 1px solid;
+	border-radius: 10px;
+	margin-left: 7px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	padding: 5px;
+	line-height: 21px;
+	text-align: justify;
+	min-height: 364px;
+}
+.headingbg 
+{
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: normal;
+	background-image: url(images/heading-bg.jpg);
+	width: 739px;
+	height: 38px;
+	line-height: 38px;
+	float: left;
+	border-radius: 7px;
+	margin-bottom: 5px
+}
+.linetext 
+{
+	font-family: Arial;
+	color: #191919;
+	font-size: 12px;
+	font-weight: normal;
+}
+.footerbg 
+{
+	background-image: url(images/footerbg.jpg);
+	width: 100%;
+	height: 63px;
+	margin: auto;
+}
+
+.attachment-post-thumbnail.wp-post-image 
+{
+	float: right;
+	padding-left: 10px;
+}
+.ips 
+{
+	color: #FF0000;
+	float: right;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: -220px;
+	margin-top: 180px;
+}
+.readmore 
+{
+	float: right;
+	margin-right: 237px;
+	text-decoration: none;
+}

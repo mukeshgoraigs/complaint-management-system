@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Registration</title>
+<script type="text/javascript" src="js/jquery.easing.1.3.js.js"></script>
+<script src="js/first.js"></script>
+<script type="text/javascript">
+$(function() 
+{
+ $("ul li:first").show();
+  var ck_username = /^[A-Za-z0-9_]{3,20}$/;
+  var ck_email = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i 
+  var ck_password =  /^[A-Za-z0-9!@#$%^&*()_]{6,20}$/;
+
+
+ $('#email').keyup(function()
+ {
+  var email=$(this).val();
+  if (!ck_email.test(email)) 
+  {
+    $(this).next().show().html("Enter valid email");
+  }
+  else
+  {
+    $(this).next().hide();
+    $("li").next("li.username").slideDown({duration: 'slow',easing: 'easeOutElastic'});
+  }
+ });
+ 
+ $('#username').keyup(function()
+ {
+  var username=$(this).val();
+  if (!ck_username.test(username)) 
+  {
+    $(this).next().show().html("Min 3 charts no Space");
+  }
+  else
+  {
+    $(this).next().hide();
+    $("li").next("li.password").slideDown({duration: 'slow',easing: 'easeOutElastic'});
+  }
+ });
+
+ $('#password').keyup(function()
+ {
+  var password=$(this).val();
+  if (!ck_password.test(password)) 
+  {
+    $(this).next().show().html("Min 6 Charts");
+  }
+  else
+  {
+    $(this).next().hide();
+    $("li").next("li.submit").slideDown({duration: 'slow',easing: 'easeOutElastic'});
+  }
+ });
+
+
+ $('#submit').click(function()
+ {
+   var email=$("#email").val();
+   var username=$("#username").val();
+   var password=$("#password").val();
+   if(ck_email.test(email) && ck_username.test(username) && ck_password.test(password) )
+   {
+     $("#form").show().html("<h1><center>Thank you!</center></h1>");
+   }
+   else
+   {}
+   return false;
+ });
+})
+</script>
+
+<style>
+body
+{
+   font-family:Arial, Helvetica, sans-serif
+}
+h1, h2
+{
+   font-family:'Georgia', Times New Roman, Times, serif;
+}
+h2
+{
+   color:#999;
+}
+ul
+{
+   padding:0px;
+   margin:0px; 
+   list-style:none;
+}
+li
+{
+   padding:5px;
+   display:none;
+}
+label
+{
+   font-size:14px;
+   font-weight:bold;
+}
+input[type="text"], input[type="password"]
+{
+   border:solid 2px #009900;
+   font-size:14px;
+   padding:4px;
+   width:180px;
+   -moz-border-radius:6px;-webkit-border-radius:6px;
+}
+input[type="submit"]
+{
+   border:solid 1px #ff6600;
+   background-color:#FF6600;
+   color:#fff;
+   font-size:14px;
+   padding:4px;
+   -moz-border-radius:6px;-webkit-border-radius:6px;
+}
+.error
+{
+    font-size:11px;
+    color:#cc0000;
+    padding:2px;
+}
+
+#form
+{
+    width:350px;
+    margin:0 auto;
+    margin-top:30px;
+}
+#div
+{
+	position:absolute;
+	width:500px;
+	height:400px;
+	left:500px;
+	top:100px;
+	background:url(PA05.JPG);
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+
+<div id="div">
+<div id="form">
+<h2 style="margin-left:80px;"><u>Registration Form</u></h2>
+
+<form method="post" >
+<ul style="margin-left:30px;">
+   <li class="email">
+     <label>Email: </label><br/> 
+     <input type="text" name="email" id="email" />
+     <span class="error"></span>
+   </li>
+   <li class="username">
+     <label>Username: </label><br/> 
+     <input type="text" name="name" id="username" />
+     <span class="error"></span>
+   </li>
+   <li class="password">
+     <label>Password: </label><br/> 
+     <input type="password" name="password" id="password" />
+     <span class="error"></span>
+   </li>
+   <li class="submit">
+     <input type="submit" value=" Register " id='submit'/>
+   </li>
+</ul>
+</form>
+</div>
+
+</div>
+</body>
+</html>
